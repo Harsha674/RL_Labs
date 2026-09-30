@@ -1,0 +1,5 @@
+Environment,Obs Space,Action Space,Max Steps,Reward Type,Avg Reward (Random),Terminated,Truncated
+CartPole-v1,"Box(4,) continuous",Discrete(2),500,Dense (+1/step),21.82,50,0
+MountainCar-v0,"Box(2,) continuous",Discrete(3),200,"Dense, sparse goal (-1/step)",-200.0,0,50
+FrozenLake-v1,Discrete(16),Discrete(4),100,Sparse (0 / +1 at goal),0.0,50,0
+Taxi-v4,Discrete(500),Discrete(6),200,"Dense w/ penalties (-1,-10,+20)",-745.44,6,44

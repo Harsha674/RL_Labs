@@ -1,0 +1,8 @@
+Good plan. Here's the breakdown, matching the six objectives on your sheet:
+
+1. **Set up the environment** — install gymnasium, verify it works
+2. **Create & execute an environment** — `gym.make`, `reset`, `step`, `close` on CartPole
+3. **Explore observation & action spaces** — inspect spaces across 3-4 different environments
+4. **Build a random agent** — write a loop that picks random actions until the episode ends
+5. **Observe rewards & termination** — run the random agent across environments, compare `terminated` vs `truncated`, log rewards
+6. **Compare environments** — pull it into a table/summary of what you observed
